@@ -19,7 +19,7 @@ const showPopup = ref(false)
     <Hero k="hello" :z-index='1001' :duration="600" timing="ease-out">
       <img id="img1" style="width: 150px" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202107%2F09%2F20210709142454_dc8dc.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665799477&t=d25745b121f521f5f024f18bd1d9771f" />
     </Hero>
-    <Hero k="hello2">
+    <Hero k="hello2" :duration="3600">
       <div style="width: 200px;height: 160px;text-align: center;background: cadetblue;overflow: hidden;">
         <h1>点击</h1>
       </div>
